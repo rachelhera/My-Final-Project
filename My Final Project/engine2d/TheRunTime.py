@@ -142,10 +142,6 @@ def main():
     if not end_the_game(screen, gameScore):
         main()
     else:
-        print('--------------------------[See ya soon again]-------------------------------')
-        print('q7e2d has been shut off gracefully')
-        #draw_text(screen, "Thank you for playing", 20, 15)
-        #time.sleep(4)
         pygame.display.quit()
         pygame.quit()
         sys.exit()
